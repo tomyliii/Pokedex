@@ -1,0 +1,47 @@
+body {
+  background-color: red;
+  min-height: 100%;
+}
+
+.wrapper {
+  width: 80%;
+
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a,
+p {
+  font-family: "Nintendo U", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+main {
+  height: 100%;
+  color: white;
+}
+
+main > div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}

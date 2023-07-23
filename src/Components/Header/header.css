@@ -1,0 +1,25 @@
+header {
+  border-bottom: red 2px solid;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div .logo {
+  width: 200px;
+}
+
+header > div > div:last-of-type {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 550px) {
+  header > div {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
